@@ -1,0 +1,564 @@
+:root {
+  --color: #5fcac7;
+}
+body h1 {
+  font-family: "Merienda", cursive;
+
+  text-align: center;
+}
+body p {
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  max-width: 2460px;
+}
+header nav {
+  margin-left: 135px;
+}
+header nav ul {
+  display: flex;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+
+  font: 400;
+}
+header nav ul li {
+  margin: 25px;
+  display: flex;
+}
+header nav ul li:hover {
+  transition: 300ms;
+  color: var(--color);
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header nav ul a:hover {
+  transition: 300ms;
+  color: #5fcac7;
+}
+header nav div:last-child {
+  display: flex;
+
+  font-size: 18px;
+}
+
+.box {
+  width: 100%;
+  --mask: radial-gradient(34.99px at 50% 48px, #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 51% repeat-x,
+    radial-gradient(34.99px at 50% -18px, #0000 99%, #000 101%) 50% 30px/120px
+      calc(51% - 30px) repeat-x,
+    radial-gradient(34.99px at 50% calc(100% - 48px), #000 99%, #0000 101%)
+      calc(50% - 60px) 100%/120px 51% repeat-x,
+    radial-gradient(34.99px at 50% calc(100% + 18px), #0000 99%, #000 101%) 50%
+      calc(100% - 30px) / 120px calc(51% - 30px) repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+main .box {
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/revslider/landing/slider_bg.jpg);
+}
+main .box h1 {
+  font-size: 42px;
+  font-family: "Merienda", cursive;
+  font-weight: 700;
+  text-align: center;
+}
+main .box p {
+  font-size: 20px;
+}
+main .box {
+  display: flex;
+  justify-content: center;
+}
+main .Specialties h1 {
+  font-size: 48px;
+  font-family: "Merienda", cursive;
+  font-weight: 700;
+}
+main .Specialties .cakes p {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 17px;
+  margin-left: -50px;
+}
+main .Specialties .cakes h1 {
+  font-size: 30px;
+  font-family: "ABeeZee", sans-serif;
+  margin-left: -90px;
+}
+main .Magic {
+  --mask: radial-gradient(31.5px at 50% 44.4px, #000 99%, #0000 101%)
+      calc(50% - 48px) 0/96px 100%,
+    radial-gradient(31.5px at 50% -20.4px, #0000 99%, #000 101%) 50% 24px/96px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/516360906.jpg?id=188);
+  margin-top: 100px;
+  height: 720px;
+  width: 100%;
+}
+main .Magic div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .Magic div h1 {
+  font-size: 65px;
+  font-family: "Merienda", cursive;
+  font-weight: 700;
+  color: white;
+  margin-top: 30px;
+}
+main .Magic div p {
+  font-size: 17px;
+  font-family: "Merienda", cursive;
+  color: white;
+
+  margin-top: 0px;
+  text-align: center;
+}
+main .Magic .More input {
+  margin-top: 50px;
+  font-size: 26px;
+  font-family: "Merienda", cursive;
+  font-weight: 500;
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+}
+main .Magic .More input:hover {
+  transition: 300ms;
+  background-color: white;
+  color: #66c2ad;
+}
+main .creation {
+  margin-top: 70px;
+}
+main .creation article {
+  display: flex;
+  justify-content: center;
+}
+main .creation .creation1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .creation .creation1 h1 {
+  font-size: 48px;
+  font-family: "Merienda", cursive;
+  margin-top: 10px;
+}
+
+main .creation article div {
+  width: 280px;
+  margin: 20px;
+  border-radius: 20px;
+
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 400ms;
+}
+main .creation article div a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+main .creation article div p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  font-family: "Merienda", cursive;
+  opacity: 0;
+}
+main .creation article div:hover {
+  opacity: 0.7;
+}
+main .creation article div p:hover {
+  opacity: 1;
+}
+main .creation .box1 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/91476642_012c012ccc.jpg);
+}
+main .creation .box2 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/479176441_012c012ccc.jpg);
+}
+main .creation .box3 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/487078389_012c012ccc.jpg);
+}
+main .creation .box4 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/536978437_012c012ccc.jpg);
+}
+main .creation .box5 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/520128124_012c012ccc.jpg);
+}
+main .creation .box6 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/522536332_012c012ccc.jpg);
+}
+main .creation .box7 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/530583274_012c012ccc.jpg);
+}
+main .creation .box8 {
+  height: 280px;
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/537121767_012c012ccc.jpg);
+}
+main .know {
+  --mask: radial-gradient(31.5px at 50% 44.4px, #000 99%, #0000 101%)
+      calc(50% - 48px) 0/96px 100%,
+    radial-gradient(31.5px at 50% -20.4px, #0000 99%, #000 101%) 50% 24px/96px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/674906526.jpg?id=254);
+  height: 675px;
+  margin-top: 50px;
+  color: white;
+}
+
+main .know article:first-child {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .know h1 {
+  font-size: 30px;
+  font-family: "Merienda", cursive;
+  font-weight: 700;
+  margin-top: 100px;
+}
+main .know p {
+  font-size: 17px;
+  font-family: "ABeeZee", sans-serif;
+}
+main .know article:last-child {
+  display: flex;
+  justify-content: center;
+}
+main .know article input {
+  margin-top: 150px;
+  width: 270px;
+  font-family: "Merienda", cursive;
+  font-weight: 500;
+  border: 3px solid black;
+  font-size: 26px;
+  background-color: white;
+}
+main .know article input:hover {
+  transition: 300ms;
+  background-color: #4b4342;
+  color: white;
+}
+main .recipes {
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/bg_med.jpg?id=490);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .recipes div:first-child {
+  margin-top: 100px;
+}
+main .recipes div:first-child img {
+  margin-left: 90px;
+}
+main .recipes div h1 {
+  font-size: 48px;
+  font-family: "Merienda", cursive;
+}
+main .client {
+  --mask: radial-gradient(34.99px at 50% 48px, #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% -18px, #0000 99%, #000 101%) 50% 30px/120px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+  background-color: #ff91a4;
+
+  width: 100%;
+  height: 550px;
+}
+main .client div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+main .client div:first-child img {
+  margin-left: 0px;
+  margin-top: -10px;
+  border-radius: 80px;
+  width: 92px;
+  height: 92px;
+}
+
+main .client h1 {
+  font-family: "Merienda", cursive;
+}
+main .client div:first-child h1 {
+  font-size: 48px;
+  margin-top: 0px;
+}
+main .client div:last-of-type P {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+main .client div:last-child h1 {
+  font-family: "Merienda", cursive;
+  font-size: 24px;
+  margin-top: 40px;
+}
+main .price {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Merienda", cursive;
+}
+main .price article {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+main .price .cake,
+.cupcakes,
+.macarons,
+.small {
+  margin-left: 20px;
+
+  width: 300px;
+  height: 715px;
+}
+main .price article img {
+  margin-top: -90px;
+}
+main .price .cake,
+.cupcakes,
+.small {
+  border: 5px solid #5fcac7;
+  border-radius: 10px;
+}
+main .macarons {
+  border: 5px solid #ff91a4;
+  border-radius: 10px;
+}
+main .price article .cake div {
+  background-color: #ff91a4;
+  width: 125px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+main .price article hr {
+  width: 80%;
+  opacity: 1;
+  border: 1px solid #5fcac7;
+  margin-top: 20px;
+}
+main .price article p {
+  margin-top: 30px;
+  font-size: 16px;
+}
+main .price article input {
+  width: 200px;
+  height: 40px;
+  color: #4b4342;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 3px solid #4b4342;
+  font-size: 22px;
+  font-size: 14px;
+}
+main .price article input:hover {
+  background-color: #4b4342;
+  color: white;
+  transition: 300ms;
+}
+main .price article .cupcakes div {
+  background-color: #ff91a4;
+  width: 125px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+main .price article .macarons div {
+  background-color: #ff91a4;
+  width: 125px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+main .price article .small div {
+  background-color: #ff91a4;
+  width: 125px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+main .follow {
+  --mask: radial-gradient(34.99px at 50% 48px, #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% -18px, #0000 99%, #000 101%) 50% 30px/120px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/Footer_1920x600-1.jpg);
+  margin-top: 100px;
+  height: 600px;
+  display: flex;
+}
+main .follow div:first-child svg {
+  width: 53px;
+  height: 25px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+main .follow div:first-child h1 {
+  font-family: "Merienda", cursive;
+  font-size: 30px;
+
+  color: white;
+}
+main .follow div:first-child {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+}
+main .follow div:first-child ul {
+  margin-left: -100px;
+  width: 400px;
+}
+main .follow div:first-child li {
+  display: inline-block;
+  margin: 8px;
+  font-size: x-large;
+  margin-top: 20px;
+  background-color: white;
+  width: 57px;
+  height: 57px;
+  text-align: center;
+  border-radius: 30px;
+}
+main .follow div:first-child li i {
+  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+}
+main .follow div:first-child a {
+  color: #4b4342;
+}
+
+main .follow div:first-child a:hover {
+  transition: 400ms;
+  color: white;
+}
+main .follow div:first-child li:hover {
+  transition: 400ms;
+  background-color: #4b4342;
+}
+main .follow .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+main .follow .news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 250px;
+}
+main .follow .news h1 {
+  font-family: "Merienda", cursive;
+  font-size: 30px;
+}
+main .follow .news svg {
+  width: 53px;
+  height: 25px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+main .follow .news input {
+  font-family: "Merienda", cursive;
+  font-size: 15px;
+  width: 290px;
+  height: 42px;
+  margin-top: 30px;
+
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+}
+footer div:last-child {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+footer {
+  --mask: radial-gradient(67.08px at 50% 90px, #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% -60px, #0000 99%, #000 101%) 50% 30px/120px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+  background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/Footer_1920x600-1.jpg);
+  height: 105px;
+  margin-top: -50px;
+}
+footer p {
+  margin-top: 50px;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 14px;
+}
